@@ -5,11 +5,19 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "chrome",
+            "type": "msedge",
             "request": "launch",
-            "name": "Open Portfolio on Localhost",
+            "name": "Open Portfolio on Localhost (Edge)",
             "url": "http://localhost:8000",
             "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open Portfolio on Localhost (Chrome)",
+            "url": "http://localhost:8000",
+            "webRoot": "${workspaceFolder}",
+            "runtimeExecutable": "chrome"
         }
     ]
-}
+}
